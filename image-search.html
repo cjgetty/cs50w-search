@@ -3,11 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Images | Google</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Google Search | Google</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Google Search</a>
-    </nav>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Google Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Google logo"></a>
+            </div>
+            <div class="search">
+                <form method="get" action="http://images.google.com/images">
+                    <div class="search-field">
+                        <i class="fa-solid fa-magnifying-glass" style="padding-right:8px"></i>
+                        <input id="inputField" type="text" name="q" placeholder="Search Google Images">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/cd25a5b73a.js" crossorigin="anonymous"></script>
 </body>
 </html>
