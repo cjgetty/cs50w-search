@@ -60,6 +60,14 @@ main {
     margin-top: 24px; /* Adjust as needed */
 }
 
+.search-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
 .inputField {
     width: 450px;
     padding: 16px;
@@ -126,4 +134,26 @@ main {
     border: 1px solid #3079ed;
     border-radius: 2px;
     font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .inputField {
+        width: 75vw;
+        padding: 16px;
+        border: 1px solid lightgray;
+        border-radius: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .inputField {
+        width: 75vw;
+        padding: 16px;
+        border: 1px solid lightgray;
+        border-radius: 24px;
+    }
+
+    .logo img {
+        max-width: 75vw;
+    }
 }
