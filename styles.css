@@ -60,7 +60,7 @@ main {
     margin-top: 24px; /* Adjust as needed */
 }
 
-#inputField {
+.inputField {
     width: 450px;
     padding: 16px;
     border: 1px solid lightgray;
@@ -84,4 +84,46 @@ main {
 
 .searchButtons:hover {
     border: 1px solid grey;
+}
+
+/* Advanced Search */
+
+.advanced-main {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 20px;
+}
+
+.textinput, .textinput1, .textinput2 {
+    border: 1px solid lightgray;
+    padding: 4px;
+    width: 300px;
+}
+
+.advanced-main h1 {
+    color: #d93025;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.advanced-main h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.advanced-main input {
+    margin-left: 20px;
+}
+
+.advanced-main .searchButtons {
+    margin: 18px 0;
+    padding: 8px;
+    background-color: #4d90fe;
+    color: white;
+    text-transform: capitalize;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-weight: bold;
 }

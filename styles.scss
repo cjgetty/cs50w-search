@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body, html 
+	margin: 0 
+	padding: 0 
+	font-family: sans-serif 
+	font-size: 14px 
+header 
+	position: relative 
+	height: 50px 
+nav 
+	position: absolute 
+	top: 0 
+	right: 0 
+.navbar 
+	list-style-type: none 
+	margin: 20px 
+	padding: 0 
+	li 
+		display: inline 
+		margin-left: 24px 
+		a 
+			text-decoration: none 
+			color: #333 
+			&:hover 
+				opacity: .75 
+main 
+	display: flex 
+	justify-content: center 
+	align-items: center 
+	height: 80vh 
+.main-container 
+	text-align: center 
+.logo 
+	img 
+		max-width: 350px 
+.search 
+	margin-top: 24px 
+.inputField 
+	width: 450px 
+	padding: 16px 
+	border: 1px solid lightgray 
+	border-radius: 24px 
+.buttons 
+	display: flex 
+	justify-content: center 
+	margin-top: 24px 
+.searchButtons 
+	padding: 10px 16px 
+	margin: 0 6px 
+	border: none 
+	border-radius: 4px 
+	cursor: pointer 
+	border: 1px solid transparent 
+	&:hover 
+		border: 1px solid grey 
+.advanced-main 
+	display: flex 
+	flex-direction: column 
+	margin: 80px 20px 
+	h1 
+		color: #d93025 
+		font-weight: 300 
+		font-size: 20px 
+		padding-bottom: 20px 
+		border-bottom: 1px solid lightgray 
+	h2 
+		font-size: 16px 
+		font-weight: normal 
+	input 
+		margin-left: 20px 
+	.searchButtons 
+		margin: 18px 0 
+		padding: 8px 
+		background-color: #4d90fe 
+		color: white 
+		text-transform: capitalize 
+		border: 1px solid #3079ed 
+		border-radius: 2px 
+		font-weight: bold 
+.textinput, .textinput1, .textinput2 
+	border: 1px solid lightgray 
+	padding: 4px 
+	width: 300px 
